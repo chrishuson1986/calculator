@@ -18,21 +18,12 @@ var remainder = function(number1, number2) {
   return number1 % number2;
 };
 
-var bmi = function(number1, number2) {
-  return number1 / (number2/number2);
+var bmi = function(number1) {
+  return number1 -32*5/9;
 };
 
-
-
-
-
-
-
-
-
-
 var number1 = parseInt(prompt("enter a number:"));
-var number2 = parseInt(prompt("enter another number:"));
 
 
-alert(multiply(number1, number2));
+
+alert(bmi(number1));
